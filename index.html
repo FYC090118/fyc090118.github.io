@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    <style>
+    .pace .pace-progress {
+    	background: #1E92FB; /*进度条颜色*/
+    	height: 3px;
+    }
+    .pace .pace-progress-inner {
+     	box-shadow: 0 0 10px #1E92FB, 0 0 5px #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+    	border-top-color: #1E92FB;	/*上边框颜色*/
+    	border-left-color: #1E92FB;	/*左边框颜色*/
+    }
+</style>
+
+<meta charset="utf-8" >
 
 <title>FYC090118</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://fyc090118.netlify.app/favicon.ico?v=1685856428309">
+<link rel="shortcut icon" href="https://fyc090118.netlify.app/favicon.ico?v=1685857642098">
 <link rel="stylesheet" href="https://fyc090118.netlify.app/styles/main.css">
 
 
@@ -30,7 +44,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://fyc090118.netlify.app">
-        <img src="https://fyc090118.netlify.app/images/avatar.png?v=1685856428309" class="site-logo">
+        <img src="https://fyc090118.netlify.app/images/avatar.png?v=1685857642098" class="site-logo">
         <h1 class="site-title">FYC090118</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -69,11 +83,19 @@
     <div class="social-container">
       
         
-      
+          <a class="social-link" href="https://github.com/FYC090118" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
         
       
         
       
+        
+      
+        
+          <a class="social-link" href="https://www.zhihu.com/people/fyc090118" target="_blank">
+            <i class="fab fa-zhihu"></i>
+          </a>
         
       
         
