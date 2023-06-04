@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fyc090118.netlify.app</id>
     <title>FYC090118</title>
-    <updated>2023-06-04T05:47:29.161Z</updated>
+    <updated>2023-06-04T05:48:08.968Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fyc090118.netlify.app"/>
     <link rel="self" href="https://fyc090118.netlify.app/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>Where there is a will, there is a way.</subtitle>
     <logo>https://fyc090118.netlify.app/images/avatar.png</logo>
     <icon>https://fyc090118.netlify.app/favicon.ico</icon>
     <rights>All rights reserved 2023, FYC090118</rights>
